@@ -8,4 +8,5 @@
 1. Install aws cli (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 1. Register credentials locally (aws configure)
 1. Install cdk (npm i -g cdk)
+1. Replace the AWS ARN for the certificate in geardead.ts
 1. Deploy stack (cdk deploy --all --require-approval never)
