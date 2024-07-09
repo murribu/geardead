@@ -26,7 +26,7 @@ export class GeardeadStack extends cdk.Stack {
     });
 
     new BucketDeployment(this, "DeployWebsite", {
-      sources: [Source.asset("./src/.next/out")],
+      sources: [Source.asset("./src")],
       destinationBucket: websiteBucket,
     });
 
